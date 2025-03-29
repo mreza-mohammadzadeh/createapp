@@ -1,8 +1,8 @@
 package main
 
 import (
-	"createapp/core"
 	"fmt"
+	"github.com/mreza-mohammadzadeh/createapp/core"
 	"log"
 	"os"
 	"os/exec"
@@ -18,6 +18,7 @@ var FolderStructure = map[string]interface{}{
 		},
 		"grpcserver": map[string]interface{}{},
 	},
+	"migrations": map[string]interface{}{},
 	"entity": map[string]interface{}{
 		"user.go": core.SampleUserEntityCode(),
 	},
